@@ -1,0 +1,447 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test1 1`] = `
+Array [
+  <div
+    className="header"
+  >
+    <h1>
+      Aplikasi Kontak
+    </h1>
+    <p
+      className="darker"
+    >
+      Aplikasi yang berisi kontak yang tersambung dengan sosial media
+    </p>
+  </div>,
+  <div
+    className="topnav"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Daftar Kontak
+    </a>
+    <a
+      href="/add"
+      onClick={[Function]}
+    >
+      Tambah Kontak
+    </a>
+  </div>,
+  <div>
+    <div
+      className="leftcolumn card"
+    >
+      <h2
+        className="center"
+      >
+        Daftar Kontak
+      </h2>
+      <div
+        className="daftar"
+      >
+        <p>
+          Jumlah kontak: 
+          0
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>
+                Nama
+              </th>
+              <th>
+                No Telp
+              </th>
+              <th>
+                Email
+              </th>
+              <th>
+                Website
+              </th>
+              <th>
+                Tanggal Lahir
+              </th>
+              <th>
+                Twitter
+              </th>
+              <th>
+                Instagram
+              </th>
+              <th>
+                WA
+              </th>
+              <th>
+                Aksi
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="footer"
+  >
+    © Copyright 2020. Icons made by 
+    <a
+      href="https://www.flaticon.com/authors/freepik"
+      title="Freepik"
+    >
+      Freepik
+    </a>
+     from 
+    <a
+      href="https://www.flaticon.com/"
+      title="Flaticon"
+    >
+      www.flaticon.com
+    </a>
+  </div>,
+]
+`;
+
+exports[`test2 1`] = `
+<div
+  className="header"
+>
+  <h1>
+    Aplikasi Kontak
+  </h1>
+  <p
+    className="darker"
+  >
+    Aplikasi yang berisi kontak yang tersambung dengan sosial media
+  </p>
+</div>
+`;
+
+exports[`test3 1`] = `
+<div
+  className="leftcolumn card"
+>
+  <h2
+    className="center"
+  >
+    Tambah Kontak Baru
+  </h2>
+  <form
+    onSubmit={[Function]}
+  >
+    <table
+      className="form"
+    >
+      <tbody>
+        <tr>
+          <td>
+            Nama
+          </td>
+          <td>
+            <input
+              className="input"
+              name="name"
+              required={true}
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Nomor Telp
+          </td>
+          <td>
+            <input
+              className="input"
+              name="tel"
+              placeholder="081288888888"
+              required={true}
+              type="tel"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Email
+          </td>
+          <td>
+            <input
+              className="input"
+              name="email"
+              type="email"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Website
+          </td>
+          <td>
+            <input
+              className="input"
+              name="web"
+              placeholder="contoh: facebook.com"
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tanggal Lahir
+          </td>
+          <td>
+            <input
+              className="input"
+              name="bday"
+              type="date"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Twitter
+          </td>
+          <td>
+            <input
+              className="input"
+              name="twitter"
+              placeholder="tanpa '@'"
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Instagram
+          </td>
+          <td>
+            <input
+              className="input"
+              name="ig"
+              placeholder="tanpa '@'"
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="center"
+            colSpan="2"
+          >
+            <button
+              className="submit"
+              type="submit"
+            >
+              Simpan
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+`;
+
+exports[`test3 2`] = `
+<div
+  className="leftcolumn card"
+>
+  <h2
+    className="center"
+  >
+    Tambah Kontak Baru
+  </h2>
+  <form
+    onSubmit={[Function]}
+  >
+    <table
+      className="form"
+    >
+      <tbody>
+        <tr>
+          <td>
+            Nama
+          </td>
+          <td>
+            <input
+              className="input"
+              name="name"
+              required={true}
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Nomor Telp
+          </td>
+          <td>
+            <input
+              className="input"
+              name="tel"
+              placeholder="081288888888"
+              required={true}
+              type="tel"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Email
+          </td>
+          <td>
+            <input
+              className="input"
+              name="email"
+              type="email"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Website
+          </td>
+          <td>
+            <input
+              className="input"
+              name="web"
+              placeholder="contoh: facebook.com"
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Tanggal Lahir
+          </td>
+          <td>
+            <input
+              className="input"
+              name="bday"
+              type="date"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Twitter
+          </td>
+          <td>
+            <input
+              className="input"
+              name="twitter"
+              placeholder="tanpa '@'"
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Instagram
+          </td>
+          <td>
+            <input
+              className="input"
+              name="ig"
+              placeholder="tanpa '@'"
+              type="text"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="center"
+            colSpan="2"
+          >
+            <button
+              className="submit"
+              type="submit"
+            >
+              Simpan
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+`;
+
+exports[`test4 1`] = `
+<div
+  className="leftcolumn card"
+>
+  <h2
+    className="center"
+  >
+    Daftar Kontak
+  </h2>
+  <div
+    className="daftar"
+  >
+    <p>
+      Jumlah kontak: 
+      0
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Nama
+          </th>
+          <th>
+            No Telp
+          </th>
+          <th>
+            Email
+          </th>
+          <th>
+            Website
+          </th>
+          <th>
+            Tanggal Lahir
+          </th>
+          <th>
+            Twitter
+          </th>
+          <th>
+            Instagram
+          </th>
+          <th>
+            WA
+          </th>
+          <th>
+            Aksi
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</div>
+`;
+
+exports[`test5 1`] = `
+<div
+  className="footer"
+>
+  © Copyright 2020. Icons made by 
+  <a
+    href="https://www.flaticon.com/authors/freepik"
+    title="Freepik"
+  >
+    Freepik
+  </a>
+   from 
+  <a
+    href="https://www.flaticon.com/"
+    title="Flaticon"
+  >
+    www.flaticon.com
+  </a>
+</div>
+`;
+
+exports[`test6 1`] = `<fire />`;

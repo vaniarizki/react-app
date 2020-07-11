@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #eae4ef;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #a9b4d6;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #f4f1f7;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #9d8dac;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover{
+  background-color: #dab0a5;
+  color: whitesmoke;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+  color: #3d3942;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #dfd6e7;
+  padding: 20px 20px 30px 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #a9b4d6;
+  margin-top: 20px;
+  color: #2a1642;
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+.footer a {
+  color: #18161b;
+  text-decoration: none;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+/* Center */
+.center {
+  text-align: center;
+}
+.darker {
+  color: #3d3942;
+}
+.input {
+  width: 100%;
+  padding: 7px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.submit {
+  width: 100%;
+  background-color: #696272;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type=submit]:hover {
+  background-color: #3d3942;
+}
+.form {
+  max-width: 600px;
+  width:50%; 
+  margin-left:25%; 
+  margin-right:25%;
+}
+.daftar {
+  overflow-x: auto;
+  margin-bottom: 50px;
+}
+.daftar table {
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+td {
+  padding: 5px 0;
+}
+.daftar tr:hover {background-color:#bfb0ce;}
+td a {
+  color: #3d3942;
+  text-decoration: none;
+}
+.daftar th, .daftar td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #3d3942;
+}
+.icon {
+  height: 21px;
+  width: 21px;
+}
+table {border-collapse: collapse;}
+.daftar button {
+  border-style: none;
+  cursor: pointer;
+  background-color: transparent;
+}
