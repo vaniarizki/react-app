@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import fire from './fire';
 import { default as Wa } from '../icon/whatsapp.png';
 import { default as Del } from '../icon/delete.png';
-const th = ['Nama', 'No Telp', 'Email', 'Website', 'Tanggal Lahir', 'Twitter', 'Instagram', 'WA', 'Aksi'];
 
+// menampilkan daftar kontak
+
+const th = ['Nama', 'No Telp', 'Email', 'Website', 'Tanggal Lahir', 'Twitter', 'Instagram', 'WA', 'Aksi'];
+// handling delete
 const handleDelete = (id, name) => {
   let c = window.confirm(`Hapus kontak ${name}?`)
   if (c === true) {
@@ -13,9 +16,11 @@ const handleDelete = (id, name) => {
     alert(`Kontak ${name} tidak dihapus`)
   }
 }
+
 export default function Contacts() {
   let [contactObj, setContactObj] = useState({});
   let [count, setCount] = useState(0);
+  // mengambil data dari database saat memuat halaman
   useEffect(() => {
     fire.database().ref().child('contacts').on('value', snapshot => {
       if (snapshot.val() != null) {
