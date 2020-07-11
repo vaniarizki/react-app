@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import fire from './fire';
+
+// Menambahkan kontak menggunakan form
+// disambungkan ke database firebase
+
 export let contacts = [];
 export default class Add extends Component {
   constructor(props) {
